@@ -7,6 +7,7 @@ function Wire_5 () {
     }
     Red1 = 0
     Yellow1 = 0
+    Black1 = 0
     for (let value of WireList) {
         if (value == 0) {
             Red1 += 1
@@ -256,8 +257,8 @@ let colourList: number[] = []
 let Ratio = 0
 let cursor: Sprite = null
 let cursorPos = 0
-let Black1 = 0
 let WireList: number[] = []
+let Black1 = 0
 let Yellow1 = 0
 let Red1 = 0
 let Serial_Number_Odd = false
